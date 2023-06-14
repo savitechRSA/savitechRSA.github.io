@@ -15,6 +15,9 @@ html{
 }
 
  */
+#winter-deal {
+
+}
 
 
 .topnav {
@@ -108,7 +111,12 @@ html{
   display: grid;
   grid-template-columns: 95% 5%;
   margin-bottom: 0.3%;
+  background-color: darkgrey;
 }
+
+
+
+/*FLASHING BUTTON*/
 
 #flashing-button {
   background-color: #1c87c9;
@@ -189,7 +197,8 @@ html{
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 80%;
+  
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
@@ -269,7 +278,7 @@ html{
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: #ec736f;
+    background-color: grey;
     color: white;
   }
   
@@ -661,7 +670,7 @@ h6 {
   .footer {
     margin-top: 0.5%;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     background-color: rgb(39, 37, 37);
     height: 0%;
     color: #555;
@@ -691,6 +700,7 @@ h6 {
     grid-template-columns: auto auto;
     width: 100%;
   }
+
 
   #quick-links {
     display: none;
